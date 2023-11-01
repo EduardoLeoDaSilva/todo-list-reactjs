@@ -1,0 +1,70 @@
+.task__box{
+    width:100;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-400, #333);
+    background: var(--gray-500, #262626);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: start;
+}
+
+.box__text{
+    color: var(--gray-100);
+    flex-grow: 1;
+    font-size: 0.8rem;
+    color: var(--gray-100);
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+.checkbox{
+    background-color: var(--gray-700);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-style: solid;
+    border-radius: 3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkboxUnmarked{
+    border-color: var(--blue);
+}
+
+.checkboxUnmarked:hover{
+    background-color: var(--gray-400);
+}
+
+.checkboxMarked{
+    background-color: var(--purple-dark);
+    border-style: none
+}
+
+.checkboxMarked:hover{
+    background-color: var(--purple);
+}
+
+.task__deletebtn{
+    background-color: transparent;
+    border: none;
+    color: var(--gray-100);
+}
+
+.task__deletebtn:hover{
+    color: var(--danger);
+}
+
+.box__text__done{
+    color: var(--gray-100);
+    flex-grow: 1;
+    font-size: 0.8rem;
+    color: var(--gray-300);
+    font-weight: 400;
+    font-family: 'Inter';
+    text-decoration: line-through;
+}

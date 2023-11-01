@@ -1,0 +1,66 @@
+.header{
+  background-color: var(--gray-700);
+  height: 12.5rem;
+  flex-direction: row;
+  position: relative;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  position: absolute;
+  top: 11rem;
+  width: 100%;
+}
+
+.search__input{
+  flex-grow: 1;
+}
+.search__aligned{
+  display: flex;
+  width: 46rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.main{
+  margin-top: 5.75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 46rem;
+}
+
+.container__headline{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.headline__createdTask{
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 0.8rem;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline__concludedTask{
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 0.8rem;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskList{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
